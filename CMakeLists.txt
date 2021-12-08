@@ -68,6 +68,7 @@ endmacro()
 
 # Currently, always build.
 # This could be improved with logic to use installed platform packages.
-build_pybind11()
+# build_pybind11()
+find_package(pybind11 REQUIRED)
 
 ament_package()
